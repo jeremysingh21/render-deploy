@@ -1,4 +1,0 @@
-# backend/requirements.txt
-Flask
-flask-cors
-gunicorn
