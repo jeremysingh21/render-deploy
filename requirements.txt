@@ -4,3 +4,4 @@ flask-cors
 gunicorn
 flask-sqlalchemy
 pyodbc
+python-dotenv
