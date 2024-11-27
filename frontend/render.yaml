@@ -1,0 +1,7 @@
+# frontend/render.yaml
+services:
+  - type: static
+    name: frontend
+    env: node
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
