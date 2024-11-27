@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState('Loading...');
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_BACKEND_URL}/api`)
+    fetch(`${import.meta.env.VITE_BACKEND_URL}/api/users`)
       .then((response) => response.json())
       .then((data) => setMessage(data.message))
       .catch((error) => {
